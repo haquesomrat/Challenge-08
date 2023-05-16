@@ -1,0 +1,51 @@
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 1440px;
+    z-index: 11;
+  }
+  /* common styles  */
+  .main-section {
+    /* background-color: var(--dark-blue); */
+    position: relative;
+  }
+  .desk-bg {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+  }
+  .mob-bg {
+    display: none;
+  }
+  /* card container  */
+  .card-container {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 2rem;
+  }
+  .card-one {
+    width: 40%;
+    height: 100%;
+  }
+  .card-two {
+    width: 60%;
+    height: 40%;
+  }
+  /* pop up storage  */
+  .popup-storage-left {
+    right: 2.5rem;
+    top: -3rem;
+  }
+  .popup-storage-left::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-top: 40px solid rgb(255, 255, 255);
+    border-left: 38px solid transparent;
+  }
+}
