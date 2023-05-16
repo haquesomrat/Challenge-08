@@ -24,6 +24,7 @@
     flex-direction: row;
     align-items: flex-end;
     gap: 2rem;
+    /* min-width: 60%; */
   }
   .card-one {
     width: 40%;
